@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <style>
+    body  {
+      background-image: url("https://media.istockphoto.com/vectors/seamless-pattern-black-and-white-cow-hide-background-vector-id1168190910?k=20&m=1168190910&s=612x612&w=0&h=z7GpnxyPfdNu0Gm9boQCmHAzUZW-k6T2xu50TmOhU0g=");
+      background-color: #cccccc;
+    }
+    </style>
+  <script src="confetti.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>BELLY BUTTON BEEF</h1>
+        <p>Quit grass grazing and start navel gazing!</p>
+      </div>
+    </div> 
+      <p style="color:rgb(255, 0, 234)"><font size="+3"><b>Could your belly button save the planet? Perhaps. Methane produced by beef cattle is one of the more potent greenhouse gases affecting our world. Luckily, cows will likely soon be a relic of history, thanks to belly button beef. Where's the beef? Maybe it was right here all along!
+      </font></b></p>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+</body>
+
+</html>
